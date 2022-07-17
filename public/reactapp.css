@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(238, 235, 235);
+  }
+ 
+/* HEADER */
+
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .logo-div {
+    border: 1px, solid, white;
+  }
+
+  .logo {
+      display: flex;
+      width: 100%;
+      padding: 10px;
+      transition: width 0.5s;
+  }
+
+  .logo:hover {
+    width: 110%;
+  }
+
+  .navbar-list {
+      top: 20px;
+      right: 30px;
+      width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .navbar-item {
+      display: block;
+      font-size: 120%;
+      margin-top: 20px;
+      margin-left: 12px;
+      color: #efefef;
+      transition: color 0.3s, font-size 0.4s;
+  }
+
+  .navbar-item:hover {
+      color: grey;
+      font-size: 130%;
+  }
+
+  /* HEADER */
+
+  /* CARDS */
+
+  .container-fluid {
+    margin-left: 150px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-right: 150px;
+    padding-left: 50px;
+  }
+
+  .card-body{
+      padding: 50px;
+      height: 20rem;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .card{
+      width: 30rem;
+      margin: auto;
+      margin-top: 100px;
+      transition: box-shadow 0.4s, --bs-card-spacer-y 0.4s, --bs-card-spacer-x 0.4s ;
+        --bs-card-spacer-y: 2.5rem;
+        --bs-card-spacer-x: 4rem;
+        
+  }
+  .card:hover{
+      box-shadow: 0.5px 0.5px 4px rgb(145, 145, 145);
+  } 
+
+  .card-body > * {
+      text-align: center;
+      width:70%;
+      font-size: 150%
+  }
+
+  .card-title {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(45deg, rgb(255, 251, 8), rgb(255, 3, 3)) 1;
+  }
+
+
+  /* FOOTER */
