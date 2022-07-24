@@ -23,7 +23,7 @@ const Sidebar = () => {
   </div>
 
     <Routes>
-    <Route path="/" element={<CardsContainer />} />
+      <Route path="/" element={<CardsContainer />} />
       <Route path="lastUser" element={<LastProduct />} />
       <Route path="categories" element={<Categories />}/>
       <Route path="productList" element={<ProductList />}/>
