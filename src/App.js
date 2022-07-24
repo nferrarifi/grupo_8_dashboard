@@ -6,10 +6,7 @@ import CardsContainer from "./Components/CardsContainer";
 function App() {
   return (
     <>
-      <body>
-        <Sidebar />
-        <CardsContainer />
-      </body>
+      <Sidebar />
     </>
   );
 }
