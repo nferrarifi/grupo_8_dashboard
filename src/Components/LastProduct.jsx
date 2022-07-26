@@ -29,7 +29,7 @@ const LastProduct = () => {
     <div class="container-fluid">
     <div className="card last-card">
     <img className="card-img-top" src={lastUser && 
-    `http://localhost:3050/img/users/profile1655673167790.jpg`
+    `http://localhost:3050/img/users/${lastUser.usuario.imagen}`
     } alt="Perfil de usuario"/>
     <div className="card-body">
     <h5 className="card-title">

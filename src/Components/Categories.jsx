@@ -12,7 +12,7 @@ const Categories = () => {
         entry_level: 0
     }
     useEffect (() => {
-      //Fetch y Set de informacion de ultimo usuario
+      //Fetch y Set de informacion de Categorias
       const fetchData = (async () => {    
         const res = await fetch ('http://localhost:3050/api/product')
         const data = await (res.json())
